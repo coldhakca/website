@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+html {
+    background: #333333;
+    color: #EEEEEE;
+}
+body {
+	background: #333333;
+}
+h1, h2, h3, h4, h5 {
+	color: #EEEEEE;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.logo {
+    margin: auto;
+    height: 304px;
+    width: 304px;
+}
+.ch-info {
+    text-align: center;
+}
+.ch-content {
+	padding-top: 55px;
+}
+.ch-project-description {
+	color: #EEEEEE;
+}
