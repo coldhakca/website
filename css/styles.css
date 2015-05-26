@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5 {
 	color: #EEEEEE;
     font-family: 'Roboto Condensed', sans-serif !important;
 }
+hr {
+	border-color: #333333;
+}
 .logo {
     margin: auto;
     height: 304px;
