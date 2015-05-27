@@ -35,3 +35,8 @@ hr {
   border: 3px double #CCCCCC;
   padding: 10px;
 }
+
+.warning {
+    color: #800000
+}
+
