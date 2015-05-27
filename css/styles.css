@@ -27,3 +27,11 @@ hr {
 .ch-project-description {
 	color: #EEEEEE;
 }
+
+.console {
+  font-family:Courier;
+  color: #CCCCCC;
+  background: #000000;
+  border: 3px double #CCCCCC;
+  padding: 10px;
+}

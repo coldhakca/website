@@ -26,20 +26,23 @@
 		    Place all files into the same directory, and run make. This directory will become messy, so it is encouraged to create a directory specifically for building coldkernel.
 		    </p>
 		    <h2>Dependencies</h2>
-		    <pre>
-$ apt-get install bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl
-$ apt-get build-dep linux
+		<div class="console">
+$ apt-get install bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl <br>
+$ apt-get build-dep linux <br>
 $ apt-get install gcc-4.9-plugin-dev (replace with the version appropriate for your gcc version)
-</pre>
+</div>
 		    <p>Once built</p>
-<pre>$ sudo dpkg -i linux-*.deb</pre>
+	<div class="console">
+$ dpkg -i linux-*.deb
+</div>
 		    <h2>GIDs</h2>
-<ul>
-<li>TPE-trusted = 1005</li>
-<li>Deny sockets = 1004</li></ul>
+	<div class="console">
+TPE-trusted = 1005<br>
+Deny sockets = 1004
+</div>
 		    <h2>Important Notice</h2>
 <p>
-		    This is still extremely alpha. If it breaks, you get to keep the pieces. There is currently support for x86_64 only.
+<font color="red">		    This is still extremely alpha. If it breaks, you get to keep the pieces. There is currently support for x86_64 only. </font>
 </p>	    
 </div>
         </div>
