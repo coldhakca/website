@@ -31,14 +31,13 @@ func addDefaultHeaders(fn http.HandlerFunc) http.HandlerFunc {
 }
 
 func redir(w http.ResponseWriter, req *http.Request) {
-	http.Redirect(w, req, "http://localhost" + req.RequestURI, http.StatusMovedPermanently)
+	http.Redirect(w, req, "https://coldhak.ca" + req.RequestURI, http.StatusMovedPermanently)
 }
 
 func main() {
     http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("css"))))
     http.Handle("/img/", http.StripPrefix("/img/", http.FileServer(http.Dir("img"))))
     http.HandleFunc("/coldkernel", addDefaultHeaders(renderTemplate))
-    http.ListenAndServe(":8888", nil)
-    //http.ListenAndServe(":80", http.HandlerFunc(redir))
-    //http.ListenAndServeTLS(":443", nil)
+    http.ListenAndServe(":8080", http.HandlerFunc(redir))
+    http.ListenAndServeTLS(":8443", "/etc/nginx/conf/ssl-unified.crt", "/etc/nginx/conf/ssl.key", nil)
 }
