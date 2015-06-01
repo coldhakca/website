@@ -40,5 +40,8 @@ func main() {
     http.Handle("/img/", http.StripPrefix("/img/", http.FileServer(http.Dir("img"))))
     http.HandleFunc("/coldkernel", addDefaultHeaders(renderTemplate))
     http.ListenAndServe(":8080", http.HandlerFunc(redir))
-    http.ListenAndServeTLS(":8443", "/etc/nginx/conf/ssl-unified.crt", "/etc/nginx/conf/ssl.key", nil)
+    err := http.ListenAndServeTLS(":8443", "/etc/nginx/conf/ssl-unified.crt", "/etc/nginx/conf/ssl.key", nil)
+    if err != nil {
+        log.Fatal(err)
+    }
 }
