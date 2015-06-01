@@ -59,7 +59,7 @@ hr {
   text-align: right;
 }
 .github-link {
-  color: #EEE;
+  color: #5596C8;
   background-color: #333;
   padding: 6px 12px;
   font-size: 15px;
@@ -69,11 +69,11 @@ hr {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  border: 1px solid #EEE;
+  border: 2px solid #5596C8;
 }
 .github-link:hover {
-  color: #333;
-  background: #EEE;
+  color: #EEE;
+  background: #5596C8;
   border-color: #EEE;
   text-decoration: none;
 }
