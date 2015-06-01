@@ -36,6 +36,7 @@ func redir(w http.ResponseWriter, req *http.Request) {
 
 func main() {
     http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("css"))))
+    http.Handle("/js/", http.StripPrefix("/js/", http.FileServer(http.Dir("js"))))
     http.Handle("/img/", http.StripPrefix("/img/", http.FileServer(http.Dir("img"))))
     http.HandleFunc("/coldkernel", addDefaultHeaders(renderTemplate))
     http.ListenAndServe(":8080", http.HandlerFunc(redir))
