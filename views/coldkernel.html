@@ -51,9 +51,10 @@
                                 </div>
                                 <h2>GIDs</h2>
                                 <div class="console">
-                                        TPE-trusted = 1005<br>
-                                        Deny sockets = 1004
-                                </div>
+					TPE-trusted(CONFIG_GRKERNSEC_TPE_TRUSTED_GID) = 1005<br>
+					Deny sockets(CONFIG_GRKERNSEC_SOCKET_ALL) = 1004<br>
+					PROC usergroup(GRKERNSEC_PROC_USERGROUP) = 1001
+				</div>
                                 <h2>Important Notice</h2>
                                 <p>
                                         <div class="warning">
