@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+html {
+  background: #333333;
+  color: #EEEEEE;
+}
+body {
+	background: #333333;
+}
+h1, h2, h3, h4, h5 {
+	color: #EEEEEE;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+hr {
+	border-color: #333333;
+}
+.logo {
+  margin: auto;
+  height: 304px;
+  width: 304px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #EEE;
+}
+.menu li {
+  display: inline;
+}
+.menu li h2 {
+  display: inline;
+}
+.menu li a:hover {
+  text-decoration: none;
+  background: #AAA;
+  color: #333;
+  border-radius: 5px 5px 0px 0px;
+}
+.menu li a {
+  padding: 5px;
+  color: #EEE;
+}
+.menu li.active a {
+  color: #333;
+  background: #EEE;
+  border-radius: 5px 5px 0px 0px;
+}
+.ch-info {
+    text-align: center;
+}
+.ch-content {
+	padding-top: 62px;
+}
+.ch-project-description {
+	color: #EEEEEE;
+}
+.github-section {
+  text-align: right;
+}
+.github-link {
+  color: #5596C8;
+  background-color: #333;
+  padding: 6px 12px;
+  font-size: 15px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 2px solid #5596C8;
+}
+.github-link:hover {
+  color: #EEE;
+  background: #5596C8;
+  border-color: #EEE;
+  text-decoration: none;
+}
+.console {
+  font-family:Courier;
+  color: #CCCCCC;
+  background: #000000;
+  border: 3px double #CCCCCC;
+  padding: 10px;
+}
+.warning {
+    color: #D80000
+}
