@@ -13,7 +13,7 @@ func relaysHandler(w traffic.ResponseWriter, r *traffic.Request) {
 }
 
 func sync_familyHandler(w traffic.ResponseWriter, r *traffic.Request) {
-	        w.Render("sync_family")
+        w.Render("sync_family")
 }
 
 
