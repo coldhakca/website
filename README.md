@@ -1,5 +1,9 @@
 # coldhak website #
-Here is our website. It uses Go-lang on the backend.
+Here is our website. It uses Go-lang and traffic on the backend.
 
-    go build server.go
-    ./server
+    go build
+    ./coldhak
+
+### traffic ###
+
+https://github.com/pilu/traffic
