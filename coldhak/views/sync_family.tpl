@@ -48,7 +48,7 @@
 	<h2>Important Notice</h2>
         <p>
             <div class="warning">
-                This is still extremely alpha. If it breaks, you get to keep the pieces. There is currently support for x86_64 only.
+                This is still extremely alpha. If it breaks, you get to keep the pieces.
             </div>
         </p>
     </div>
