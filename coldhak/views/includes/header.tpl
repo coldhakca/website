@@ -17,9 +17,3 @@
       <a href="https://twitter.com/coldhakca" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @coldhakca</a>
       <script src="/js/twitter.js"></script>
     </div>
-    <div class="col-md-5 ch-content">
-      <ul class="menu">
-        <li role="presentation" class="active"><h2><a href="coldkernel">coldkernel</a></h2></li>
-        <!-- <li role="presentation"><h2><a href="relays">relays</a></h2></li> -->
-      </ul>
-      <br>
