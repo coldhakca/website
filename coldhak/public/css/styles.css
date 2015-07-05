@@ -85,5 +85,60 @@ hr {
   padding: 10px;
 }
 .warning {
-    color: #D80000
+  color: #D80000
+}
+.nav {
+  padding-left: 0;
+  list-style: none;
+}
+.nav:after {
+  clear: both;
+}
+.nav:before, .nav:after {
+  display: table;
+  content: " ";
+}
+.nav-stacked > li {
+  float: none;
+}
+.nav-pills > li {
+  position: relative;
+  display: block;
+}
+.nav-pills > li > a {
+  border-bottom: 2px solid #337AB7;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  background-color: #EEE;
+}
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #337AB7;
+  color: #EEE;
+}
+.github-btn {
+  height: 20px;
+  font: 700 11px/14px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.github-btn a {
+  background-color: #EEE;
+  background-image: linear-gradient(to bottom, #FCFCFC 0, #EEE 100%);
+  background-repeat: no-repeat;
+  border: 1px solid #D5D5D5;
+  padding: 2px 5px 2px 4px;
+  color: #333;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFF;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.github-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  margin-top: -4px;
 }
