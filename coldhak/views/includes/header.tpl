@@ -23,5 +23,5 @@
           <span><img class="social-icon" src="/img/twitter.png">Follow @coldhakca</span>
         </a>
       </div>
-      <h4>Coldhak Tor Relays: 9</h4>
+      <h4>coldhak tor relays: 9</h4>
     </div>
