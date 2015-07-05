@@ -125,11 +125,12 @@ hr {
 .black-that-text {
   color: #000;
 }
-.github-btn {
+.social-btn {
   height: 20px;
   font: 700 11px/14px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin-bottom: 4px;
 }
-.github-btn a {
+.social-btn a {
   background-color: #EEE;
   background-image: linear-gradient(to bottom, #FCFCFC 0, #EEE 100%);
   background-repeat: no-repeat;
@@ -142,7 +143,7 @@ hr {
   cursor: pointer;
   border-radius: 3px;
 }
-.github-icon {
+.social-icon {
   width: 14px;
   height: 14px;
   margin-right: 4px;
