@@ -12,7 +12,15 @@
     <br>
     <div class="ch-project-description">
 
-        <p>coming soon</p>
+        <h3>Version: {{ .Version }}</h3>
+        <h3>Relays Published: {{ .RelaysPublished }}</h3>
+        <h3>Bridges Published: {{ .BridgesPublished }}</h3>
+
+        <p>
+            {{ .Families }}
+        </p>
+
+        <!-- <p>coming soon</p> -->
 
     </div>
 
