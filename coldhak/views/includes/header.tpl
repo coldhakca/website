@@ -10,7 +10,7 @@
   <div class="row">
     <div class="col-md-offset-2 col-md-3 ch-info">
       <h1>coldhak</h1>
-      <h3>ahhchuu | g3cko | Phoul | robertkeizer</h3>
+      <h3>ahhchuu | g3cko | phoul | robertkeizer</h3>
       <img class="logo" src="/img/snow.png">
       <hr>
       <div class="social-btn">
