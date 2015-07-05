@@ -13,12 +13,11 @@
       <h3>ahhchuu | g3cko | Phoul | robertkeizer</h3>
       <img class="logo" src="/img/snow.png">
       <hr>
-      <span class="github-btn">
+      <div class="github-btn">
         <a href="https://github.com/ColdhakCA" target="_blank" aria-label="Follow @ColdhakCA on GitHub">
           <span><img class="github-icon" src="/img/github.svg">Follow @ColdhakCA</span>
         </a>
-      </span>
-      <br>
+      </div>
       <a href="https://twitter.com/coldhakca" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @coldhakca</a>
       <script src="/js/twitter.js"></script>
       <h4>Coldhak Tor Relays: 9</h4>
