@@ -108,6 +108,9 @@ hr {
 .nav-pills > li > a {
   border-bottom: 2px solid #337AB7;
 }
+.nav-pills > li > a:hover {
+  border-color: #000;
+}
 .nav > li > a {
   position: relative;
   display: block;
@@ -118,6 +121,9 @@ hr {
   text-decoration: none;
   background-color: #337AB7;
   color: #EEE;
+}
+.black-that-text {
+  color: #000;
 }
 .github-btn {
   height: 20px;
