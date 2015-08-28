@@ -31,19 +31,18 @@
         </p>
         <h2>Dependencies</h2>
         <div class="console">
-            $ sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl <br>
-            $ sudo apt-get build-dep linux <br>
-            $ sudo apt-get install gcc-4.9-plugin-dev (replace with the version appropriate for your gcc version)
+            sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl <br>
+            sudo apt-get build-dep linux <br>
+            sudo apt-get install gcc-4.9-plugin-dev (replace with the version appropriate for your gcc version)
         </div>
         <p>Once built</p>
         <div class="console">
-            $ sudo dpkg -i linux-*.deb
-	    $ sudo paxctl -Cm /usr/sbin/grub-probe
-	    $ sudo paxctl -Cm /usr/sbin/grub-mkdevicemap
-	    $ sudo paxctl -Cm /usr/sbin/grub-setup
-	    $ sudo paxctl -Cm /usr/bin/grub-script-check
-	    $ sudo paxctl -Cm /usr/bin/grub-mount
-
+            sudo dpkg -i linux-*.deb <br>
+	    sudo paxctl -Cm /usr/sbin/grub-probe <br>
+	    sudo paxctl -Cm /usr/sbin/grub-mkdevicemap <br>
+	    sudo paxctl -Cm /usr/sbin/grub-setup <br>
+	    sudo paxctl -Cm /usr/bin/grub-script-check <br>
+	    sudo paxctl -Cm /usr/bin/grub-mount
         </div>
         <h2>GIDs</h2>
         <div class="console">
