@@ -28,5 +28,5 @@
          <span><img src="/img/flattr.png"></span>
         </a>
         </div>
-      <h4>coldhak tor relays: 9</h4>
+      <h4>coldhak tor relays: 8</h4>
     </div>
