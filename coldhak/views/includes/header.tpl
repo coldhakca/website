@@ -23,10 +23,10 @@
           <span><img class="social-icon" src="/img/twitter.png">Follow @coldhakca</span>
         </a>
       </div>
-	<div class="flattr-btn">
-        <a href="https://flattr.com/submit/auto?user_id=Coldhak&url=https%3A%2F%2Fcoldhak.ca" target="_blank" aria-label="Flattr this">
-         <span><img src="/img/flattr.png"></span>
+      <div class="social-btn">
+        <a href="https://www.patreon.com/coldhak" target="_blank" aria-label="Support coldhak on Patreon">
+          <span><img class="social-icon" src="/img/patreon.png">Support on Patreon</span>
         </a>
-        </div>
+      </div>
       <h4>coldhak tor relays: 8</h4>
     </div>
