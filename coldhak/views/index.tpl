@@ -26,9 +26,6 @@
                 </div>
             </div>
         </div>
-        <p>
-            Place all files into the same directory, and run <strong><em>make</em></strong>. This directory will become messy, so it is encouraged to create a directory specifically for building coldkernel.
-        </p>
         <h2>Dependencies</h2>
         <div class="console">
             sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl <br>
