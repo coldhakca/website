@@ -28,5 +28,5 @@
           <span><img class="social-icon" src="/img/patreon.png">Support on Patreon</span>
         </a>
       </div>
-      <h4>coldhak tor relays: 8</h4>
+      <h4>coldhak tor relays: 7</h4>
     </div>
