@@ -28,7 +28,7 @@
         </div>
         <h2>Dependencies</h2>
         <div class="console">
-            sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl <br>
+            sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl git <br>
             sudo apt-get build-dep linux <br>
             sudo apt-get install gcc-4.9-plugin-dev (replace with the version appropriate for your gcc version)
         </div>
