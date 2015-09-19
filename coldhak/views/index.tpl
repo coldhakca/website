@@ -44,13 +44,14 @@
 	</div>
         <p>Once built</p>
         <div class="console">
-            sudo dpkg -i linux-*.deb <br>
-	    sudo paxctl -Cm /usr/sbin/grub-probe <br>
-	    sudo paxctl -Cm /usr/sbin/grub-mkdevicemap <br>
-	    sudo paxctl -Cm /usr/sbin/grub-setup <br>
-	    sudo paxctl -Cm /usr/bin/grub-script-check <br>
-	    sudo paxctl -Cm /usr/bin/grub-mount
-        </div>
+            wget https://grsecurity.net/paxctld/paxctld_1.0-2_amd64.{deb,deb.sig} <br>
+	    gpg --verify paxctld_1.0-2_amd64.{deb.sig,deb} <br>
+	    sudo dpkg -i paxctld_1.0-2_amd64.deb <br>
+	    sudo dpkg -i linux-*.deb <br>
+	    sudo cp paxctld.conf /etc/paxctld.conf <br>
+	    sudo paxctld -d <br>
+	    sudo reboot
+	</div>
         <h2>GIDs and group creation</h2>
         <div class="console">
             TPE-trusted(CONFIG_GRKERNSEC_TPE_TRUSTED_GID) = 1005<br>
