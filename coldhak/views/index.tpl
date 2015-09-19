@@ -50,6 +50,7 @@
 	    sudo dpkg -i linux-*.deb <br>
 	    sudo cp paxctld.conf /etc/paxctld.conf <br>
 	    sudo paxctld -d <br>
+	    sudo update-rc.d paxctld enable <br>
 	    sudo reboot
 	</div>
         <h2>GIDs and group creation</h2>
