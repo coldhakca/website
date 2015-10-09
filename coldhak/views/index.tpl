@@ -38,8 +38,8 @@
 	    gpg --import phoul.asc<br>
 	    git clone https://github.com/coldhakca/coldkernel<br>
   	    cd coldkernel<br>
-	    git verify-tag coldkernel-0.2a-4.1.7<br>
-	    git checkout tags/coldkernel-0.2a-4.1.7<br>
+	    git verify-tag coldkernel-0.3a-4.2.3<br>
+	    git checkout tags/coldkernel-0.3a-4.2.3<br>
 	    make
 	</div>
         <p>Once built</p>
