@@ -34,8 +34,8 @@
         </div>
 	<h2>Clone / Build</h2>
 	<div class="console">
-	    wget "https://db.torproject.org/fetchkey.cgi?fingerprint=726824BE9D8D5CF009C5F039FF9D1C57779FB883" -O phoul.asc<br>
-	    gpg --import phoul.asc<br>
+	    wget "https://coldhak.ca/coldhak/keys/colin.asc" -O colin.asc<br>
+	    gpg --import colin.asc<br>
 	    git clone https://github.com/coldhakca/coldkernel<br>
   	    cd coldkernel<br>
 	    git verify-tag coldkernel-0.4a-4.2.4<br>
