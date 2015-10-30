@@ -44,9 +44,9 @@
 	</div>
         <p>Once built</p>
         <div class="console">
-            wget https://grsecurity.net/paxctld/paxctld_1.0-2_amd64.{deb,deb.sig} <br>
-	    gpg --verify paxctld_1.0-2_amd64.{deb.sig,deb} <br>
-	    sudo dpkg -i paxctld_1.0-2_amd64.deb <br>
+            wget https://grsecurity.net/paxctld/paxctld_1.0-3_amd64.{deb,deb.sig} <br>
+	    gpg --verify paxctld_1.0-3_amd64.{deb.sig,deb} <br>
+	    sudo dpkg -i paxctld_1.0-3_amd64.deb <br>
 	    sudo dpkg -i linux-*.deb <br>
 	    sudo cp paxctld.conf /etc/paxctld.conf <br>
 	    sudo paxctld -d <br>
