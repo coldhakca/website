@@ -45,7 +45,7 @@
        
 	 <hr>
 
-        <h2><a href="https://twitter.com/TheodoreBaschak">g3cko</a></h2>
+        <h2><a href="https://twitter.com/TheodoreBaschak">G3cko</a></h2>
         <p>Legal Name: Theodore Baschak<br>
         Occupation: Network Architect at Daemon Defense Systems
         </p>
