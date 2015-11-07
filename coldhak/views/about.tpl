@@ -63,8 +63,7 @@
         Occupation: Information Security Consultant at OBS Global
         </p>
 
-        <p><br>
-        Likes Pie!
+        <p>Likes Pie!
         </p>
 
         <p>Jeremy is one of the founding directors of Coldhak. He has spoken on podcasts, at workshops, and conferences about security, hacking, and secure coding. Jeremy is highly active in the local IT and hacker community being a long-time member of the local Winnipeg hackerspace.
