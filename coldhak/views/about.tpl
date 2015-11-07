@@ -23,40 +23,8 @@
 
         <h2>About Coldhak</h2>
         <p>Coldhak is a nonprofit dedicated to furthering privacy, security and freedom of speech.</p>
-
-        <hr>
-
-        <h2>g3cko</h2>
-        <p>Legal Name: Theodore Baschak<br>
-        Occupation: Network Architect at Daemon Defense Systems
-        </p>
-
-        <p>One of the founding directors of Coldhak, Theo is an Internet routing guru, and lives and breathes BGP. He is on the board of directors for the Manitoba Internet Exchange. He is also an avid opensource user and documentation contributor.
-        </p>
-
-        <h3>Contact:</h3>
-        <ul class="nav nav-pills nav-stacked">
-            <li><a href="https://coldhak.ca/coldhak/keys/theo.asc">PGP <span class="black-that-text">13F2 3C54 26FF B28A CF0D  34DC C1AC A463 B519 C47E</span></a></li>
-            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:jhbuw5ohdozyzihb</span></a></li>
-        </ul>
-
-        <hr>
-
-        <h2>RobertKeizer</h2>
-        <p>Legal Name: Robert Keizer<br>
-        Occupation: Startup CTO, System, Dev, Director for a few non profits.
-        </p>
-
-        <p>Rob Keizer is a developer, music lover, startup junkie, and privacy zealot. Believer in the "starfish principle" he works towards doing what he can, out of a sense of obligation. "Technology is a tool; Let's use it well". 
-        </p>
-
-        <h3>Contact:</h3>
-        <ul class="nav nav-pills nav-stacked">
-            <li><a href="https://coldhak.ca/coldhak/keys/robert.asc">PGP <span class="black-that-text">E5EF 0CAC 1882 65F1 2339  EFD6 F563 B68C 6157 7C44</span></a></li>
-            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:k4jxuu4mfncrc5wg</span></a></li>
-        </ul>
-
-        <hr>
+        
+	<hr>
 
         <h2>Ahhchuu</h2>
         <p>Legal Name: Jeremy Hiebert<br>
@@ -73,6 +41,22 @@
         <ul class="nav nav-pills nav-stacked">
             <li><a href="https://coldhak.ca/coldhak/keys/jeremy.asc">PGP <span class="black-that-text">AC87 55C0 78D4 37D4 2104  A255 0A35 B257 73EA 7341</span></a></li>
             <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:yhzylvawjeivcdmi</span></a></li>
+        </ul>
+       
+	 <hr>
+
+        <h2>g3cko</h2>
+        <p>Legal Name: Theodore Baschak<br>
+        Occupation: Network Architect at Daemon Defense Systems
+        </p>
+
+        <p>One of the founding directors of Coldhak, Theo is an Internet routing guru, and lives and breathes BGP. He is on the board of directors for the Manitoba Internet Exchange. He is also an avid opensource user and documentation contributor.
+        </p>
+
+        <h3>Contact:</h3>
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="https://coldhak.ca/coldhak/keys/theo.asc">PGP <span class="black-that-text">13F2 3C54 26FF B28A CF0D  34DC C1AC A463 B519 C47E</span></a></li>
+            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:jhbuw5ohdozyzihb</span></a></li>
         </ul>
 
         <hr>
@@ -93,7 +77,21 @@
             <li><a href="https://otr.cypherpunks.ca/">OTR <span class="black-that-text">EB543B0E 4C1B3F89 9F00A373 F894C710 55AC8DC8</span></a></li>
         </ul>
 
+        <hr>
 
+        <h2>RobertKeizer</h2>
+        <p>Legal Name: Robert Keizer<br>
+        Occupation: Startup CTO, System, Dev, Director for a few non profits.
+        </p>
+
+        <p>Rob Keizer is a developer, music lover, startup junkie, and privacy zealot. Believer in the "starfish principle" he works towards doing what he can, out of a sense of obligation. "Technology is a tool; Let's use it well". 
+        </p>
+
+        <h3>Contact:</h3>
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="https://coldhak.ca/coldhak/keys/robert.asc">PGP <span class="black-that-text">E5EF 0CAC 1882 65F1 2339  EFD6 F563 B68C 6157 7C44</span></a></li>
+            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:k4jxuu4mfncrc5wg</span></a></li>
+        </ul>
 
     </div>
 </div>
