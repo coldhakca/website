@@ -47,7 +47,7 @@
         Occupation: Startup CTO, System, Dev, Director for a few non profits.
         </p>
 
-        <p>About: Rob Keizer is a developer, music lover, startup junkie, and privacy zealot. Believer in the "starfish principle" he works towards doing what he can, out of a sense of obligation. "Technology is a tool; Let's use it well". 
+        <p>Rob Keizer is a developer, music lover, startup junkie, and privacy zealot. Believer in the "starfish principle" he works towards doing what he can, out of a sense of obligation. "Technology is a tool; Let's use it well". 
         </p>
 
         <h3>Contact:</h3>
@@ -63,7 +63,7 @@
         Occupation: Information Security Consultant at OBS Global
         </p>
 
-        <p>About:<br>
+        <p><br>
         Likes Pie!
         </p>
 
@@ -83,7 +83,7 @@
         Occupation: Contractor for the Tor Project
         </p>
 
-        <p>About: He is on the board of directors for SkullSpace Winnipeg, and BSides Winnipeg. He is one of the founding directors of Coldhak, and actively develops coldkernel / assists in running Coldhak's Tor relays.
+        <p>He is on the board of directors for SkullSpace Winnipeg, and BSides Winnipeg. He is one of the founding directors of Coldhak, and actively develops coldkernel / assists in running Coldhak's Tor relays.
         </p>
 
         <h3>Contact:</h3>
