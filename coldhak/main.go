@@ -16,7 +16,7 @@ func sync_familyHandler(w traffic.ResponseWriter, r *traffic.Request) {
 	w.Render("sync_family")
 }
 
-func sync_aboutHandler(w traffic.ResponseWriter, r *traffic.Request) {
+func aboutHandler(w traffic.ResponseWriter, r *traffic.Request) {
         w.Render("about")
 }
 
@@ -29,6 +29,6 @@ func main() {
 	router.Get("/coldkernel", indexHandler)
 	router.Get("/relays", relaysHandler)
 	router.Get("/sync_family", sync_familyHandler)
-	router.Get("/about", sync_familyHandler)
+	router.Get("/about", aboutHandler)
 	router.Run()
 }
