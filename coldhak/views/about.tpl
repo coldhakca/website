@@ -37,7 +37,7 @@
         <h3>Contact:</h3>
         <ul class="nav nav-pills nav-stacked">
             <li><a href="https://coldhak.ca/coldhak/keys/theo.asc">PGP <span class="black-that-text">13F2 3C54 26FF B28A CF0D  34DC C1AC A463 B519 C47E</span></a></li>
-            <li><a href="#">ricochet <span class="black-that-text">ricochet:jhbuw5ohdozyzihb</span></a></li>
+            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:jhbuw5ohdozyzihb</span></a></li>
         </ul>
 
         <hr>
@@ -53,7 +53,7 @@
         <h3>Contact:</h3>
         <ul class="nav nav-pills nav-stacked">
             <li><a href="https://coldhak.ca/coldhak/keys/robert.asc">PGP <span class="black-that-text">E5EF 0CAC 1882 65F1 2339  EFD6 F563 B68C 6157 7C44</span></a></li>
-            <li><a href="#">ricochet <span class="black-that-text">ricochet:k4jxuu4mfncrc5wg</span></a></li>
+            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:k4jxuu4mfncrc5wg</span></a></li>
         </ul>
 
         <hr>
@@ -73,7 +73,7 @@
         <h3>Contact:</h3>
         <ul class="nav nav-pills nav-stacked">
             <li><a href="https://coldhak.ca/coldhak/keys/jeremy.asc">PGP <span class="black-that-text">AC87 55C0 78D4 37D4 2104  A255 0A35 B257 73EA 7341</span></a></li>
-            <li><a href="#">ricochet <span class="black-that-text">ricochet:yhzylvawjeivcdmi</span></a></li>
+            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:yhzylvawjeivcdmi</span></a></li>
         </ul>
 
         <hr>
@@ -89,9 +89,9 @@
         <h3>Contact:</h3>
         <ul class="nav nav-pills nav-stacked">
             <li><a href="https://coldhak.ca/coldhak/keys/colin.asc">PGP <span class="black-that-text">7268 24BE 9D8D 5CF0 09C5  F039 FF9D 1C57 779F B883</span></a></li>
-            <li><a href="#">ricochet <span class="black-that-text">ricochet:okn4e6bgtymtagaq</span></a></li>
-            <li><a href="#">XMPP/Jabber <span class="black-that-text">phoul@skullspace.ca</span></a></li>
-            <li><a href="#">OTR <span class="black-that-text">EB543B0E 4C1B3F89 9F00A373 F894C710 55AC8DC8</span></a></li>
+            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:okn4e6bgtymtagaq</span></a></li>
+            <li><a href="https://xmpp.org/">XMPP/Jabber <span class="black-that-text">phoul@skullspace.ca</span></a></li>
+            <li><a href="https://otr.cypherpunks.ca/">OTR <span class="black-that-text">EB543B0E 4C1B3F89 9F00A373 F894C710 55AC8DC8</span></a></li>
         </ul>
 
 
