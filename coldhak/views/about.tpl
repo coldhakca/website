@@ -26,7 +26,7 @@
         
 	<hr>
 
-        <h2>Ahhchuu</h2>
+        <h2><a href="https://twitter.com/jkhiebert">Ahhchuu</a></h2>
         <p>Legal Name: Jeremy Hiebert<br>
         Occupation: Information Security Consultant at OBS Global
         </p>
@@ -45,7 +45,7 @@
        
 	 <hr>
 
-        <h2>g3cko</h2>
+        <h2><a href="https://twitter.com/TheodoreBaschak">g3cko</a></h2>
         <p>Legal Name: Theodore Baschak<br>
         Occupation: Network Architect at Daemon Defense Systems
         </p>
@@ -61,7 +61,7 @@
 
         <hr>
 
-        <h2>Phoul</h2>
+        <h2><a href="https://twitter.com/phoul">Phoul</a></h2>
         <p>Legal Name: Colin Childs<br>
         Occupation: Contractor for the Tor Project
         </p>
@@ -79,7 +79,7 @@
 
         <hr>
 
-        <h2>RobertKeizer</h2>
+        <h2><a href="https://twitter.com/robertkeizer_">RobertKeizer</a></h2>
         <p>Legal Name: Robert Keizer<br>
         Occupation: Startup CTO, System, Dev, Director for a few non profits.
         </p>
