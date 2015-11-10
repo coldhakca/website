@@ -29,7 +29,7 @@
         </div>
         <h2>Dependencies</h2>
         <div class="console">
-            sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl git <br>
+            sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl git kernel-package <br>
             sudo apt-get build-dep linux <br>
             sudo apt-get install gcc-4.9-plugin-dev (replace with the version appropriate for your gcc version)
         </div>
@@ -39,8 +39,8 @@
 	    gpg --import colin.asc<br>
 	    git clone https://github.com/coldhakca/coldkernel<br>
   	    cd coldkernel<br>
-	    git verify-tag coldkernel-0.4b-4.2.5<br>
-	    git checkout tags/coldkernel-0.4b-4.2.5<br>
+	    git verify-tag coldkernel-0.5a-4.2.6<br>
+	    git checkout tags/coldkernel-0.5a-4.2.6<br>
 	    make
 	</div>
         <p>Once built</p>
