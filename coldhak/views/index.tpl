@@ -39,8 +39,8 @@
 	    gpg --import colin.asc<br>
 	    git clone https://github.com/coldhakca/coldkernel<br>
   	    cd coldkernel<br>
-	    git verify-tag coldkernel-0.5a-4.2.6<br>
-	    git checkout tags/coldkernel-0.5a-4.2.6<br>
+	    git verify-tag coldkernel-0.5b-4.2.6<br>
+	    git checkout tags/coldkernel-0.5b-4.2.6<br>
 	    make
 	</div>
         <p>Once built</p>
