@@ -1,5 +1,6 @@
 //  Description = coldhak website
 //  Authors = coldhak (C. // J. // R. // T.)
+//  Version = 1.0
 
 package main
 
