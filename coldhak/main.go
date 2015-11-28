@@ -1,4 +1,5 @@
-// Coldhak website
+//  Description = coldhak website
+//  Authors = coldhak (C. // J. // R. // T.)
 
 package main
 
