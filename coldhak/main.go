@@ -1,3 +1,5 @@
+// Coldhak website
+
 package main
 
 import (
