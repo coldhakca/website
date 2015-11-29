@@ -29,4 +29,6 @@
         </a>
       </div>
       <h4>coldhak tor relays: 7</h4>
+      <a href="http://coldhak5rfn3jyv2.onion:8080/"><h4>use hidden service</h4>
+	</a>
     </div>
