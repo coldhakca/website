@@ -27,6 +27,7 @@
         <a href="https://www.patreon.com/coldhak" target="_blank" aria-label="Support coldhak on Patreon">
           <span><img class="social-icon" src="/img/patreon.png">Support on Patreon</span>
         </a>
+      </div>
       <div class="social-btn">
         <a href="http://coldhak5rfn3jyv2.onion:8080/" target="_blank" aria-label="Use hidden service">
 	   <span><img class="social-icon" src="/img/onion.svg">Use hidden service</span>
