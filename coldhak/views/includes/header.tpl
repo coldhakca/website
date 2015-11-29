@@ -30,7 +30,7 @@
       <div class="social-btn">
         <a href="http://coldhak5rfn3jyv2.onion:8080/" target="_blank" aria-label="Use hidden service">
 	   <span><img class="social-icon" src="/img/onion.svg">Use hidden service</span>
-	</a>
+      </a>
       </div>
-      <h4>coldhak tor relays: 7</h4>
+	<h4>coldhak tor relays: 7</h4>
     </div>
