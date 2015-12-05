@@ -33,5 +33,5 @@
 	   <span><img class="social-icon" src="/img/onion.svg">Use hidden service</span>
       </a>
       </div>
-	<h4>coldhak tor relays: 7</h4>
+	<h4>coldhak tor relays: 6</h4>
     </div>

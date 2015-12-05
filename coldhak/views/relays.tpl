@@ -28,7 +28,7 @@
         <ul class="nav nav-pills nav-stacked">
             <li><a href="https://globe.torproject.org/#/relay/F843CB5729575D76FF1FFBB2179BDCF52C0C6387">alligatorfish <span class="black-that-text">F843CB5729575D76FF1FFBB2179BDCF52C0C6387</span></a></li>
             <li><a href="https://globe.torproject.org/#/relay/EB6DCE44278E0FA19B6DEFEC7887EAE7FA4F3668">brightmill <span class="black-that-text">EB6DCE44278E0FA19B6DEFEC7887EAE7FA4F3668</span></a></li>
-            <li><a href="https://globe.torproject.org/#/relay/32564421E5DC4A08981B707C00A6E96D8A0450C2">cowcat <span class="black-that-text">32564421E5DC4A08981B707C00A6E96D8A0450C2</span></a></li>
+<!--            <li><a href="">cowcat <span class="black-that-text">32564421E5DC4A08981B707C00A6E96D8A0450C2</span></a></li> -->
             <li><a href="https://globe.torproject.org/#/relay/CD6B149BED1BB254EF6DFF9D75DDB11E7F8A38A4">spark <span class="black-that-text">CD6B149BED1BB254EF6DFF9D75DDB11E7F8A38A4</span></a></li>
             <li><a href="https://globe.torproject.org/#/relay/23C71BCC84DB5784E5BF91370FCA9069C660A05F">symphony <span class="black-that-text">23C71BCC84DB5784E5BF91370FCA9069C660A05F</span></a></li>
         </ul>
