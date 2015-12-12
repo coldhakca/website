@@ -14,7 +14,7 @@
       <img class="logo" src="/img/snow.png">
       <hr>
       <div class="social-btn">
-	<a href="mailto:coldhak@googlegroups.com" target="_blank" aria-label="Contact">
+	<a href="mailto:coldhak@googlegroups.com" target="_blank" aria-label="Contact coldhak">
 	   <span><img class="social-icon" src="/img/snow.png">Contact</span>
 	</a>
       </div>
