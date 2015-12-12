@@ -14,6 +14,12 @@
       <img class="logo" src="/img/snow.png">
       <hr>
       <div class="social-btn">
+	<a href="mailto:coldhak@googlegroups.com" target="_blank" aria-label="Contact">
+	   <span><img class="social-icon" src="/img/snow.png">Contact</span>
+	</a>
+      </div>
+      <br>
+      <div class="social-btn">
         <a href="https://github.com/ColdhakCA" target="_blank" aria-label="Follow @coldhakca on GitHub">
           <span><img class="social-icon" src="/img/github.svg">Follow @coldhakca</span>
         </a>
