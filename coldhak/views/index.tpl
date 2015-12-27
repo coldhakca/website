@@ -39,15 +39,15 @@
 	    gpg --import colin.asc<br>
 	    git clone https://github.com/coldhakca/coldkernel<br>
   	    cd coldkernel<br>
-	    git verify-tag coldkernel-0.5c-4.2.6<br>
-	    git checkout tags/coldkernel-0.5c-4.2.6<br>
+	    git verify-tag coldkernel-0.6a-4.3.3<br>
+	    git checkout tags/coldkernel-0.6a-4.3.3<br>
 	    make
 	</div>
         <p>Once built</p>
         <div class="console">
-            wget https://grsecurity.net/paxctld/paxctld_1.0-3_amd64.{deb,deb.sig} <br>
-	    gpg --verify paxctld_1.0-3_amd64.{deb.sig,deb} <br>
-	    sudo dpkg -i paxctld_1.0-3_amd64.deb <br>
+            wget https://grsecurity.net/paxctld/paxctld_1.0-4_amd64.{deb,deb.sig} <br>
+	    gpg --verify paxctld_1.0-4_amd64.{deb.sig,deb} <br>
+	    sudo dpkg -i paxctld_1.0-4_amd64.deb <br>
 	    sudo dpkg -i linux-*.deb <br>
 	    sudo cp paxctld.conf /etc/paxctld.conf <br>
 	    sudo paxctld -d <br>
