@@ -56,7 +56,7 @@
 	</div>
         <h2>GIDs and group creation</h2>
         <div class="console">
-            TPE-trusted(CONFIG_GRKERNSEC_TPE_TRUSTED_GID) = 1005<br>
+            TPE-untrusted(CONFIG_GRKERNSEC_TPE_UNTRUSTED_GID) = 1005<br>
             Deny sockets(CONFIG_GRKERNSEC_SOCKET_ALL) = 1004<br>
             PROC usergroup(GRKERNSEC_PROC_USERGROUP) = 1001<br>
 		<br>
