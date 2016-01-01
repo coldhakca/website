@@ -21,7 +21,7 @@ func sync_familyHandler(w traffic.ResponseWriter, r *traffic.Request) {
 }
 
 func aboutHandler(w traffic.ResponseWriter, r *traffic.Request) {
-        w.Render("about")
+    w.Render("about")
 }
 
 func main() {
