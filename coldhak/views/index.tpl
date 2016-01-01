@@ -14,65 +14,22 @@
     <br>
     <div class="ch-project-description">
         <div class="row">
-            <div class="col-md-8">
-                <div>
+            <div class="col-md-12">
+                <div class="col-md-offset-8 col-md-4">
+                    <div class="github-section">
+                        <p>
+                            <a class="github-link" href="https://github.com/coldhakca/coldkernel">coldkernel on GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="coldkernelreadme">
                     {{ template "coldkernelreadme" }}
                 </div>
-                <p>
-                    coldkernel is an attempt at automating the build process of grsec-enabled kernels on Debian/Ubuntu.
-                </p>
             </div>
-            <div class="col-md-4">
-                <div class="github-section">
-                    <p>
-                        <a class="github-link" href="https://github.com/coldhakca/coldkernel">coldkernel on GitHub</a>
-                    </p>
-                </div>
-            </div>
+            <br><br>
         </div>
-        <h2>Dependencies</h2>
-        <div class="console">
-            sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl git kernel-package <br>
-            sudo apt-get build-dep linux <br>
-            sudo apt-get install gcc-4.9-plugin-dev (replace with the version appropriate for your gcc version)
-        </div>
-	<h2>Clone / Build</h2>
-	<div class="console">
-	    wget "https://coldhak.ca/coldhak/keys/colin.asc" -O colin.asc<br>
-	    gpg --import colin.asc<br>
-	    git clone https://github.com/coldhakca/coldkernel<br>
-  	    cd coldkernel<br>
-	    git verify-tag coldkernel-0.6a-4.3.3<br>
-	    git checkout tags/coldkernel-0.6a-4.3.3<br>
-	    make
-	</div>
-        <p>Once built</p>
-        <div class="console">
-            wget https://grsecurity.net/paxctld/paxctld_1.0-4_amd64.{deb,deb.sig} <br>
-	    gpg --verify paxctld_1.0-4_amd64.{deb.sig,deb} <br>
-	    sudo dpkg -i paxctld_1.0-4_amd64.deb <br>
-	    sudo dpkg -i linux-*.deb <br>
-	    sudo cp paxctld.conf /etc/paxctld.conf <br>
-	    sudo paxctld -d <br>
-	    sudo update-rc.d paxctld enable <br>
-	    sudo reboot
-	</div>
-        <h2>GIDs and group creation</h2>
-        <div class="console">
-            TPE-untrusted(CONFIG_GRKERNSEC_TPE_UNTRUSTED_GID) = 1005<br>
-            Deny sockets(CONFIG_GRKERNSEC_SOCKET_ALL) = 1004<br>
-            PROC usergroup(GRKERNSEC_PROC_USERGROUP) = 1001<br>
-		<br>
-	    sudo groupadd -g 1005 tpe<br>
-	    sudo groupadd -g 1004 denysockets<br>
-	    sudo groupadd -g 1001 grsecproc<br>
-        </div>
-        <h2>Important Notice</h2>
-        <p>
-            <div class="warning">
-                This is still extremely alpha. If it breaks, you get to keep the pieces. There is currently support for x86_64 only.
-            </div>
-        </p>
     </div>
 
 {{ template "includes/footer" }}

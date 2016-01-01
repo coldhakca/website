@@ -8,22 +8,18 @@ import (
     "io/ioutil"
     "net/http"
 	"github.com/pilu/traffic"
-    "github.com/russross/blackfriday"
+    "github.com/shurcooL/github_flavored_markdown"
 )
 
 func buildReadme(w traffic.ResponseWriter, r *traffic.Request) {
-    resp, err := http.Get("https://raw.githubusercontent.com/coldhakca/coldkernel/master/README.md")
+    resp, err := http.Get("https://raw.githubusercontent.com/Phoul/coldkernel/staging/README.md")
     if err != nil {}
     defer resp.Body.Close()
     body, err := ioutil.ReadAll(resp.Body)
     if err != nil {}
-    output := blackfriday.MarkdownBasic(body)
-    //pp := string(output[:])
-
+    output := github_flavored_markdown.Markdown(body)
     err = ioutil.WriteFile("views/coldkernelreadme.tpl", output, 0644)
-    if err != nil {
-        panic(err)
-    }
+    if err != nil {}
 }
 
 func indexHandler(w traffic.ResponseWriter, r *traffic.Request) {
