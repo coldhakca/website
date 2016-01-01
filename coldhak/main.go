@@ -5,8 +5,26 @@
 package main
 
 import (
+    "io/ioutil"
+    "net/http"
 	"github.com/pilu/traffic"
+    "github.com/russross/blackfriday"
 )
+
+func buildReadme(w traffic.ResponseWriter, r *traffic.Request) {
+    resp, err := http.Get("https://raw.githubusercontent.com/coldhakca/coldkernel/master/README.md")
+    if err != nil {}
+    defer resp.Body.Close()
+    body, err := ioutil.ReadAll(resp.Body)
+    if err != nil {}
+    output := blackfriday.MarkdownBasic(body)
+    //pp := string(output[:])
+
+    err = ioutil.WriteFile("views/coldkernelreadme.tpl", output, 0644)
+    if err != nil {
+        panic(err)
+    }
+}
 
 func indexHandler(w traffic.ResponseWriter, r *traffic.Request) {
 	w.Render("index")
@@ -34,5 +52,6 @@ func main() {
 	router.Get("/relays", relaysHandler)
 	router.Get("/sync_family", sync_familyHandler)
 	router.Get("/about", aboutHandler)
+    router.Get("/buildcoldkernelreadme", buildReadme)
 	router.Run()
 }

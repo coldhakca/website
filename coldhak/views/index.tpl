@@ -15,6 +15,9 @@
     <div class="ch-project-description">
         <div class="row">
             <div class="col-md-8">
+                <div>
+                    {{ template "coldkernelreadme" }}
+                </div>
                 <p>
                     coldkernel is an attempt at automating the build process of grsec-enabled kernels on Debian/Ubuntu.
                 </p>
