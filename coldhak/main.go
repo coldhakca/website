@@ -12,7 +12,7 @@ import (
 )
 
 func buildReadme(w traffic.ResponseWriter, r *traffic.Request) {
-    resp, err := http.Get("https://raw.githubusercontent.com/Phoul/coldkernel/staging/README.md")
+    resp, err := http.Get("https://raw.githubusercontent.com/coldhakca/coldkernel/master/README.md")
     if err != nil {}
     defer resp.Body.Close()
     body, err := ioutil.ReadAll(resp.Body)
