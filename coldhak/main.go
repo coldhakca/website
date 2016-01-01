@@ -11,15 +11,26 @@ import (
     "github.com/shurcooL/github_flavored_markdown"
 )
 
-func buildReadme(w traffic.ResponseWriter, r *traffic.Request) {
-    resp, err := http.Get("https://raw.githubusercontent.com/coldhakca/coldkernel/master/README.md")
+func build(page string, location string) {
+    resp, err := http.Get(page)
     if err != nil {}
+
     defer resp.Body.Close()
     body, err := ioutil.ReadAll(resp.Body)
     if err != nil {}
+
     output := github_flavored_markdown.Markdown(body)
-    err = ioutil.WriteFile("views/coldkernelreadme.tpl", output, 0644)
+
+    err = ioutil.WriteFile(location, output, 0644)
     if err != nil {}
+}
+
+func buildColdkernel(w traffic.ResponseWriter, r *traffic.Request) {
+    build("https://raw.githubusercontent.com/coldhakca/coldkernel/master/README.md", "views/coldkernelreadme.tpl")
+}
+
+func buildSyncFamily(w traffic.ResponseWriter, r *traffic.Request) {
+    build("https://raw.githubusercontent.com/coldhakca/sync_family/master/README.md", "views/sync_familyreadme.tpl")
 }
 
 func indexHandler(w traffic.ResponseWriter, r *traffic.Request) {
@@ -48,6 +59,7 @@ func main() {
 	router.Get("/relays", relaysHandler)
 	router.Get("/sync_family", sync_familyHandler)
 	router.Get("/about", aboutHandler)
-    router.Get("/buildcoldkernelreadme", buildReadme)
+    router.Get("/build/coldkernel", buildColdkernel)
+    router.Get("/build/sync_family", buildSyncFamily)
 	router.Run()
 }

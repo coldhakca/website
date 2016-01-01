@@ -13,11 +13,14 @@ h1, h2, h3, h4, h5 {
 hr {
 	border-color: #333333;
 }
-.coldkernelreadme h3 code {
+.readme {
+    margin-top: -70px;
+}
+.readme h3 code {
     padding: 4px;
     color: #5596C8;
 }
-.coldkernelreadme pre code {
+.readme pre code {
     display: block;
     overflow: auto;
     font-family: Courier;

@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <div class="coldkernelreadme">
+                <div class="readme">
                     {{ template "coldkernelreadme" }}
                 </div>
             </div>
