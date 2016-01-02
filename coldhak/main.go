@@ -34,7 +34,7 @@ func buildSyncFamily(w traffic.ResponseWriter, r *traffic.Request) {
 }
 
 func buildAtlasTools(w traffic.ResponseWriter, r *traffic.Request) {
-	build("https://raw.githubusercontent.com/coldhakca/atlas-tools-misc/master/README.md", "views/atlastoolsreadme.tpl")
+	build("https://raw.githubusercontent.com/coldhakca/atlas-tools/master/README.md", "views/atlastoolsreadme.tpl")
 }
 
 func indexHandler(w traffic.ResponseWriter, r *traffic.Request) {

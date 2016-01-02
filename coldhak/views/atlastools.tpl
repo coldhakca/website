@@ -19,7 +19,7 @@
                 <div class="col-md-offset-8 col-md-4">
                     <div class="github-section">
                         <p>
-                            <a class="github-link" href="https://github.com/coldhakca/atlas-tools-misc">atlas tools on GitHub</a>
+                            <a class="github-link" href="https://github.com/coldhakca/atlas-tools">atlas tools on GitHub</a>
                         </p>
                     </div>
                 </div>
