@@ -6,7 +6,7 @@
             <h2><a href="coldkernel">coldkernel</a></h2>
         </li>
         <li role="presentation">
-	    <h2><a href="atlastools">atlas tools</a></h2>
+	    <h2><a href="atlas_tools">atlas_tools</a></h2>
 	</li>
 
         <li role="presentation">

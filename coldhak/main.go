@@ -34,7 +34,7 @@ func buildSyncFamily(w traffic.ResponseWriter, r *traffic.Request) {
 }
 
 func buildAtlasTools(w traffic.ResponseWriter, r *traffic.Request) {
-	build("https://raw.githubusercontent.com/coldhakca/atlas-tools/master/README.md", "views/atlastoolsreadme.tpl")
+	build("https://raw.githubusercontent.com/coldhakca/atlas_tools/master/README.md", "views/atlas_toolsreadme.tpl")
 }
 
 func indexHandler(w traffic.ResponseWriter, r *traffic.Request) {
@@ -53,8 +53,8 @@ func aboutHandler(w traffic.ResponseWriter, r *traffic.Request) {
     w.Render("about")
 }
 
-func atlastoolsHandler(w traffic.ResponseWriter, r *traffic.Request) {
-	w.Render("atlastools")
+func atlas_toolsHandler(w traffic.ResponseWriter, r *traffic.Request) {
+	w.Render("atlas_tools")
 }
 
 func main() {
@@ -67,9 +67,9 @@ func main() {
 	router.Get("/relays", relaysHandler)
 	router.Get("/sync_family", sync_familyHandler)
 	router.Get("/about", aboutHandler)
-	router.Get("/atlastools", atlastoolsHandler) 
+	router.Get("/atlas_tools", atlas_toolsHandler)
 	router.Get("/build/coldkernel", buildColdkernel)
 	router.Get("/build/sync_family", buildSyncFamily)
-	router.Get("/build/atlastools", buildAtlasTools)
+	router.Get("/build/atlas_tools", buildAtlasTools)
 	router.Run()
 }
