@@ -4,7 +4,7 @@
 <h2><a name="dependencies" class="anchor" href="#dependencies" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
 Dependencies</h2>
 
-<pre><code>sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl git kernel-package
+<pre><code>sudo apt-get install paxctl bc wget gnupg fakeroot build-essential devscripts libfile-fcntllock-perl curl git
 sudo apt-get build-dep linux
 sudo apt-get install gcc-4.9-plugin-dev (replace with the version appropriate for your gcc version)
 </code></pre>
@@ -15,8 +15,8 @@ Clone / Build</h2>
 gpg --import colin.asc
 git clone https://github.com/coldhakca/coldkernel
 cd coldkernel
-git verify-tag coldkernel-0.6b-4.3.3
-git checkout tags/coldkernel-0.6b-4.3.3
+git verify-tag coldkernel-0.6c-4.3.3
+git checkout tags/coldkernel-0.6c-4.3.3
 make
 </code></pre>
 <h2><a name="once-built" class="anchor" href="#once-built" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>

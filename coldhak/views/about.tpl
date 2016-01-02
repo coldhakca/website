@@ -5,6 +5,9 @@
         <li role="presentation">
             <h2><a href="coldkernel">coldkernel</a></h2>
         </li>
+        <li role="presentation">
+	    <h2><a href="atlastools">atlas tools</a></h2>
+	</li>
 
         <li role="presentation">
             <h2><a href="sync_family">sync_family</a></h2>
