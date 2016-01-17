@@ -1,4 +1,4 @@
-# coldhak website 1.0 #
+# coldhak website 2.0 #
 
 Here is our website. It uses Go-lang and traffic on the backend.
 
