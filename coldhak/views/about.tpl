@@ -66,7 +66,7 @@
         </p>
 
         <p>
-          He is one of the founding directors of Coldhak, and actively develops coldkernel / assists in running Coldhak's Tor relays.
+          Colin is an anonymity and privacy advocate. He is one of the founding directors of Coldhak, and actively develops coldkernel / assists in running Coldhak's Tor relays.
         </p>
 
         <h3>Contact:</h3>
