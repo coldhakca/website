@@ -66,7 +66,7 @@
         </p>
 
         <p>
-          He is on the board of directors for SkullSpace Winnipeg, and BSides Winnipeg. He is one of the founding directors of Coldhak, and actively develops coldkernel / assists in running Coldhak's Tor relays.
+          He is one of the founding directors of Coldhak, and actively develops coldkernel / assists in running Coldhak's Tor relays.
         </p>
 
         <h3>Contact:</h3>
