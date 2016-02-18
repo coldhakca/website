@@ -12,7 +12,7 @@
     <div class="xlarge-80 large-70 medium-60 small-100 tiny-100">
       <div class="column readme">
 
-        <p>Coldhak is a nonprofit dedicated to furthering privacy, security and freedom of speech.</p>
+        <p>Coldhak is a nonprofit dedicated to furthering privacy, security, and freedom of speech.</p>
 
         <hr>
 
