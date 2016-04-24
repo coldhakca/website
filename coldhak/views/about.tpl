@@ -52,7 +52,7 @@
 
         <h3>Contact:</h3>
         <ul class="relay">
-            <li><a href="/coldhak/keys/theo.asc">PGP <span class="black-that-text">13F2 3C54 26FF B28A CF0D  34DC C1AC A463 B519 C47E</span></a></li>
+            <li><a href="/coldhak/keys/theo.asc">PGP <span class="black-that-text">8BB1 79F2 7ABB 1AFC F711  9E2A 2A0E 8675 EF4D 4F80</span></a></li>
             <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:jhbuw5ohdozyzihb</span></a></li>
         </ul>
 
