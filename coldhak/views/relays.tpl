@@ -18,6 +18,7 @@
           <li><a href="https://globe.torproject.org/#/relay/DABCB84A524A22FDDD3AFCB090E3090CC12D9770">starfish <span class="black-that-text">DABCB84A524A22FDDD3AFCB090E3090CC12D9770</span></a></li>
           <li><a href="https://globe.torproject.org/#/relay/7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3">torlesnet <span class="black-that-text">7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3</span></a></li>
           <li><a href="https://globe.torproject.org/#/relay/823AA81E277F366505545522CEDC2F529CE4DC3F">snowfall <span class="black-that-text">823AA81E277F366505545522CEDC2F529CE4DC3F</span></a></li>
+	  <li><a href="https://globe.torproject.org/#/relay/C90CA3B7FE01A146B8268D56977DC4A2C024B9EA">cowcat <span class="black-that-text">C90CA3B7FE01A146B8268D56977DC4A2C024B9EA</span></a></li>
 	</ul>
 
         <h2>Guard / Middle Relays</h2>
