@@ -16,7 +16,7 @@
           <!-- <li><a href="https://globe.torproject.org/#/relay/A4586C6039389D61B9EB9083224AC71F4A675F8B">lungfish <span class="black-that-text">A4586C6039389D61B9EB9083224AC71F4A675F8B</span></a></li>
           <li><a href="https://globe.torproject.org/#/relay/694A366235D4898CD969F304406DF07BE59CFB92">rainbowfish <span class="black-that-text">694A366235D4898CD969F304406DF07BE59CFB92</span></a></li> -->
           <li><a href="https://atlas.torproject.org/#details/DABCB84A524A22FDDD3AFCB090E3090CC12D9770">starfish <span class="black-that-text">DABCB84A524A22FDDD3AFCB090E3090CC12D9770</span></a></li>
-          <li><a href="https://atlas.torproject.org/#details/7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3">torlesnet <span class="black-that-text">7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3</span></a></li>
+          <li><a href="https://atlas.torproject.org/#details/7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3">torlesnet2 <span class="black-that-text">7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3</span></a></li>
           <li><a href="https://atlas.torproject.org/#details/823AA81E277F366505545522CEDC2F529CE4DC3F">snowfall <span class="black-that-text">823AA81E277F366505545522CEDC2F529CE4DC3F</span></a></li>
 	  <li><a href="https://atlas.torproject.org/#details/C90CA3B7FE01A146B8268D56977DC4A2C024B9EA">cowcat <span class="black-that-text">C90CA3B7FE01A146B8268D56977DC4A2C024B9EA</span></a></li>
 	</ul>
