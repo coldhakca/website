@@ -6,7 +6,7 @@
         <li><a class="ch-logo-onion" href="http://coldhak5rfn3jyv2.onion:8080/"></a></li>
         <li><a class="ch-logo-email" href="mailto:contact@coldhak.ca" target="_top"></a></li>
     </ul>
-    <p class="ch-relay-count">coldhak tor relays: 6</p>
+    <p class="ch-relay-count">coldhak tor relays: 7</p>
   </nav>
 
 </body>
