@@ -19,6 +19,7 @@
           <li><a href="https://atlas.torproject.org/#details/7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3">torlesnet2 <span class="black-that-text">7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3</span></a></li>
           <li><a href="https://atlas.torproject.org/#details/823AA81E277F366505545522CEDC2F529CE4DC3F">snowfall <span class="black-that-text">823AA81E277F366505545522CEDC2F529CE4DC3F</span></a></li>
 	  <li><a href="https://atlas.torproject.org/#details/C90CA3B7FE01A146B8268D56977DC4A2C024B9EA">cowcat <span class="black-that-text">C90CA3B7FE01A146B8268D56977DC4A2C024B9EA</span></a></li>
+	  <li><a href="https://atlas.torproject.org/#details/547DA56F6B88B6C596B3E3086803CDA4F0EF8F21">chaucer <span class="black-that-text">547DA56F6B88B6C596B3E3086803CDA4F0EF8F21</span></a></li>
 	</ul>
 
         <h2>Guard / Middle Relays</h2>
