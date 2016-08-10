@@ -73,8 +73,8 @@
         <ul class="relay">
             <li><a href="/coldhak/keys/colin.asc">PGP <span class="black-that-text">7268 24BE 9D8D 5CF0 09C5  F039 FF9D 1C57 779F B883</span></a></li>
             <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:okn4e6bgtymtagaq</span></a></li>
-            <li><a href="https://xmpp.org/">XMPP/Jabber <span class="black-that-text">phoul@skullspace.ca</span></a></li>
-            <li><a href="https://otr.cypherpunks.ca/">OTR <span class="black-that-text">EB543B0E 4C1B3F89 9F00A373 F894C710 55AC8DC8</span></a></li>
+            <li><a href="https://xmpp.org/">XMPP/Jabber <span class="black-that-text">colin@torproject.org</span></a></li>
+            <li><a href="https://otr.cypherpunks.ca/">OTR <span class="black-that-text">76795F27 FB315FA1 EF187144 79A9F9E6 B58552C1</span></a></li>
         </ul>
 
         <hr>
