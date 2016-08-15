@@ -68,8 +68,8 @@ func main() {
 	router.Get("/sync_family", sync_familyHandler)
 	router.Get("/about", aboutHandler)
 	router.Get("/atlas_tools", atlas_toolsHandler)
-	router.Get("/build/coldkernel", buildColdkernel)
-	router.Get("/build/sync_family", buildSyncFamily)
-	router.Get("/build/atlas_tools", buildAtlasTools)
+//	router.Get("/build/coldkernel", buildColdkernel)
+//	router.Get("/build/sync_family", buildSyncFamily)
+//	router.Get("/build/atlas_tools", buildAtlasTools)
 	router.Run()
 }
