@@ -13,11 +13,14 @@
         <h2>Exits</h2>
 
         <ul class="relay">
-          <li><a href="https://atlas.torproject.org/#details/DABCB84A524A22FDDD3AFCB090E3090CC12D9770">starfish <span class="black-that-text">DABCB84A524A22FDDD3AFCB090E3090CC12D9770</span></a></li>
+          <li><a href="https://atlas.torproject.org/#details/DABCB84A524A22FDDD3AFCB090E3090CC12D9770">starfish <span class="black-that-text">317172AB30696897E1F7FA7AA2FC97B47ABF384F</span></a></li>
           <li><a href="https://atlas.torproject.org/#details/7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3">torlesnet2 <span class="black-that-text">7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3</span></a></li>
           <li><a href="https://atlas.torproject.org/#details/823AA81E277F366505545522CEDC2F529CE4DC3F">snowfall <span class="black-that-text">823AA81E277F366505545522CEDC2F529CE4DC3F</span></a></li>
 	  <li><a href="https://atlas.torproject.org/#details/C90CA3B7FE01A146B8268D56977DC4A2C024B9EA">cowcat <span class="black-that-text">C90CA3B7FE01A146B8268D56977DC4A2C024B9EA</span></a></li>
 	  <li><a href="https://atlas.torproject.org/#details/547DA56F6B88B6C596B3E3086803CDA4F0EF8F21">chaucer <span class="black-that-text">547DA56F6B88B6C596B3E3086803CDA4F0EF8F21</span></a></li>
+	  <li><a href="https://atlas.torproject.org/#details/547DA56F6B88B6C596B3E3086803CDA4F0EF8F21">prawksi <span class="black-that-text">F6A358DD367B3282D6EF5824C9D45E1A19C7E815</span></a></li>
+	  <li><a href="https://atlas.torproject.org/#details/547DA56F6B88B6C596B3E3086803CDA4F0EF8F21">manipogo <span class="black-that-text">C0192FF43E777250084175F4E59AC1BA2290CE38</span></a></li>
+	  <li><a href="https://atlas.torproject.org/#details/547DA56F6B88B6C596B3E3086803CDA4F0EF8F21">ogopogo <span class="black-that-text">557ACEC850F54EEE65839F83CACE2B0825BE811E</span></a></li>
 	</ul>
 
         <h2>Guard / Middle Relays</h2>
