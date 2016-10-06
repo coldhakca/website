@@ -22,7 +22,6 @@
       <ul class="menu horizontal black push-right">
         <li><a href="coldkernel">coldkernel</a></li>
         <li><a href="atlas_tools">atlas_tools</a></li>
-        <li><a href="sync_family">sync_family</a></li>
         <li><a href="relays">relays</a></li>
         <li><a href="about">about</a></li>
       </ul>
