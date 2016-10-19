@@ -23,12 +23,6 @@
 	  <li><a href="https://atlas.torproject.org/#details/557ACEC850F54EEE65839F83CACE2B0825BE811E">ogopogo <span class="black-that-text">557ACEC850F54EEE65839F83CACE2B0825BE811E</span></a></li>
 	</ul>
 
-        <h2>Guard / Middle Relays</h2>
-
-        <ul class="relay">
-          <li><a href="https://atlas.torproject.org/#details/F843CB5729575D76FF1FFBB2179BDCF52C0C6387">alligatorfish <span class="black-that-text">F843CB5729575D76FF1FFBB2179BDCF52C0C6387</span></a></li>
-        </ul>
-
       </div>
     </div>
   </div>
