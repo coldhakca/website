@@ -90,7 +90,7 @@
 
         <h3>Contact:</h3>
         <ul class="relay">
-            <li><a href="/coldhak/keys/robert.asc">PGP <span class="black-that-text">E5EF 0CAC 1882 65F1 2339  EFD6 F563 B68C 6157 7C44</span></a></li>
+            <li><a href="/coldhak/keys/robert.asc">PGP <span class="black-that-text">E9CA 82F5 5B46 BFC6 0151 5269 06B6 8F05 8CA7 6E75</span></a></li>
             <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:k4jxuu4mfncrc5wg</span></a></li>
         </ul>
 
