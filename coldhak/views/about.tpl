@@ -33,6 +33,7 @@
 
         <h3>Contact:</h3>
         <ul class="relay">
+	  <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:qoal4rmkmlotynt2</span></a></li>
         </ul>
         
         <hr>
