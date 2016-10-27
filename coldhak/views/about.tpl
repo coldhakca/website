@@ -33,8 +33,6 @@
 
         <h3>Contact:</h3>
         <ul class="relay">
-            <li><a href="/coldhak/keys/jeremy.asc">PGP <span class="black-that-text">AC87 55C0 78D4 37D4 2104  A255 0A35 B257 73EA 7341</span></a></li>
-            <li><a href="https://ricochet.im">Ricochet <span class="black-that-text">ricochet:yhzylvawjeivcdmi</span></a></li>
         </ul>
         
         <hr>
