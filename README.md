@@ -3,3 +3,6 @@
 Now with a blog!
 
 Here is our website. It uses Jekyll.
+
+    gem install jekyll bundler
+    
