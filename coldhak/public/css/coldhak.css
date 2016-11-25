@@ -1,12 +1,45 @@
 body {
   background: #333;
-  color: #EEE;
+  color: #CCC;
 }
 h1 {
   color: #5596C8;
 }
 h2, h3, h4, h5, h6 {
   color: #EEE;
+}
+a:hover {
+  color: #5596C8;
+}
+
+.content {
+  padding: 60px 20px;
+}
+.smaller {
+  font-size: 0.8em;
+}
+.ch-linkbox {
+  padding-left: 0;
+  border-bottom: 2px solid #337AB7;
+  padding: 10px 15px;
+  background: #EEE;
+  color: #337AB7;
+  margin: 0;
+}
+.ch-linkbox li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0;
+}
+.ch-linkbox a {
+  position: relative;
+  color: #333;
+}
+.ch-linkbox:hover {
+  text-decoration: none;
+  background-color: #337AB7;
+  color: #FFF;
+  border-color: #000;
 }
 
 .ch-topbar {
@@ -72,7 +105,7 @@ h2, h3, h4, h5, h6 {
 .readme p {
   color: #CCC;
 }
-.readme pre code {
+pre code {
   background: #EEE;
   color: #333;
   display: block;
@@ -80,7 +113,7 @@ h2, h3, h4, h5, h6 {
   border: 3px double #CCC;
   padding: 10px;
 }
-.readme h3 code {
+h3 code {
   padding: 4px;
   color: #5596C8;
 }
