@@ -7,3 +7,4 @@ src/
 coldhak/.sass-cache/
 coldhak/_site/
 coldhak/vendor
+coldhak/.bundle/

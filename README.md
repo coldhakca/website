@@ -4,5 +4,8 @@ Now with a blog!
 
 Here is our website. It uses Jekyll.
 
-    gem install jekyll bundler
-    
+    git clone https://github.com/coldhakca/website.git
+	cd website/coldhak
+	gem install bundler
+	bundle install --path vendor/bundle
+	bundle exec jekyll build
