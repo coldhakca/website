@@ -1,22 +1,23 @@
-{{ template "includes/header" }}
+{% include header.html %}
 
 <div class="ink-grid">
   <div class="column-group horizontal-gutters">
     <div class="xlarge-20 large-30 medium-40 small-100 tiny-100">
       <div class="column ch-button-column">
-        
-        <a class="ink-button" href="https://github.com/coldhakca/coldkernel">coldkernel on GitHub</a>
-
+        <h1>Coldhak Blog</h1>
       </div>
     </div>
     <div class="xlarge-80 large-70 medium-60 small-100 tiny-100">
-      <div class="column readme">
+      <div class="content">
 
-        {{ template "coldkernelreadme" }}
+        <h1>{{ page.title }}</h1>
+        <h5>{{ page.date | date: '%B %d, %Y' }}</h5>
+        <hr>
+        {{ content }}
 
       </div>
     </div>
   </div>
 </div>
 
-{{ template "includes/footer" }}
+{% include footer.html %}

@@ -1,20 +1,11 @@
-# coldhak website 2.0 #
+# coldhak website 3.0 #
 
-Here is our website. It uses Go-lang and traffic on the backend.
+Now with a blog!
 
-    go build
-    ./coldhak
+Here is our website. It uses Jekyll.
 
-## Go Requirements ##
-
-### traffic ###
-
-https://github.com/pilu/traffic
-
-Install: `go get github.com/pilu/traffic`
-
-### markdown renderer ###
-
-https://github.com/shurcooL/github_flavored_markdown
-
-Install: `go get github.com/shurcooL/github_flavored_markdown`
+    git clone https://github.com/coldhakca/website.git
+	cd website/coldhak
+	gem install bundler
+	bundle install --path vendor/bundle
+	bundle exec jekyll build

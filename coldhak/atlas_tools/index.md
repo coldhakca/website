@@ -1,27 +1,34 @@
-<h1><a name="atlas-tools-misc" class="anchor" href="#atlas-tools-misc" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>atlas-tools-misc</h1>
+---
+title: atlas_tools
+layout: readmepage
+permalink: /atlas_tools/
+---
+# atlas_tools
 
-<p>misc tools that use data from RIPE atlas</p>
-<h2><a name="tools-and-usage" class="anchor" href="#tools-and-usage" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-tools and usage</h2>
+Misc CLI tools that use data from RIPE atlas. 
 
-<ul>
-<li>SSL Measurement</li>
-<li>Traceroute data visualization</li>
-<li>Maxmind GeoIP data integration</li>
-</ul>
-<h3><a name="traceroute-measurement" class="anchor" href="#traceroute-measurement" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-Traceroute Measurement</h3>
+Note: These will likely be rewritten as a [ripe-atlas-tools renderer](http://ripe-atlas-tools.readthedocs.org/en/master/plugins.html).
 
-<p><code>atlas-examine-traceroute-measurement.py</code> lets you examine a traceroute measurement in detail, printing out the ASN name, IPs and RTTs as returned by the probe.</p>
-<h4><a name="usage" class="anchor" href="#usage" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-Usage</h4>
+## tools and usage
 
-<pre><code>python atlas-examine-traceroute-measurement.py &#34;https://atlas.ripe.net/api/v2/measurements/3200170/results?start=1451433600&amp;stop=1451519999&amp;format=json&#34;
-</code></pre>
-<h4><a name="sample-output" class="anchor" href="#sample-output" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-Sample Output</h4>
+*	SSL Measurement
+*	Traceroute data visualization
+*	Maxmind GeoIP data integration
 
-<pre><code>Source:    75.159.240.66
+### Traceroute Measurement
+
+`atlas-examine-traceroute-measurement.py` lets you examine a traceroute measurement in detail, printing out the ASN name, IPs and RTTs as returned by the probe.
+
+#### Usage
+
+```
+python atlas-examine-traceroute-measurement.py "https://atlas.ripe.net/api/v2/measurements/3200170/results?start=1451433600&stop=1451519999&format=json"
+```
+
+#### Sample Output
+
+```
+Source:    75.159.240.66
 Dest:      192.160.102.255
 Probe ID:  10441
 Type:      Traceroute
@@ -84,55 +91,57 @@ Proto:     ICMP
 7 199.87.157.253: 3.826 ms (248) 199.87.157.253: 3.368 ms (248) 199.87.157.253: 24.679 ms (248)  AS18451 LES.NET 
 8 192.160.102.255: 4.091 ms (247) 192.160.102.255: 3.76 ms (247) 192.160.102.255: 5.903 ms (247)  AS18451 LES.NET 
 
-&lt;snip&gt;
-</code></pre>
-<h3><a name="ssl-measurement" class="anchor" href="#ssl-measurement" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-SSL Measurement</h3>
+<snip>
+```
 
-<p><code>atlas-examine-ssl-measurement.py</code> lets you examine an SSL measurement in detail, printing out the <code>dst_addr</code> and details of the certificate chain as returned by the probe.</p>
-<h4><a name="usage" class="anchor" href="#usage" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-Usage</h4>
+### SSL Measurement
 
-<pre><code>python atlas-examine-ssl-measurement.py https://atlas.ripe.net/api/v2/measurements/3198534/results?format=json
-</code></pre>
-<h4><a name="sample-output" class="anchor" href="#sample-output" rel="nofollow" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-Sample Output</h4>
+`atlas-examine-ssl-measurement.py` lets you examine an SSL measurement in detail, printing out the `dst_addr` and details of the certificate chain as returned by the probe.
 
-<pre><code>31.13.69.228
+#### Usage
+
+```
+python atlas-examine-ssl-measurement.py https://atlas.ripe.net/api/v2/measurements/3198534/results?format=json
+```
+
+#### Sample Output
+
+```
+31.13.69.228
  0
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;ST&#39;, &#39;CA&#39;), (&#39;L&#39;, &#39;Menlo Park&#39;), (&#39;O&#39;, &#39;Facebook, Inc.&#39;), (&#39;CN&#39;, &#39;*.facebook.com&#39;)]
+  CertData:  [('C', 'US'), ('ST', 'CA'), ('L', 'Menlo Park'), ('O', 'Facebook, Inc.'), ('CN', '*.facebook.com')]
   SHA1:      86:7C:B2:93:94:87:87:8A:6E:4D:B2:52:36:AC:92:AA:76:F0:9D:E3
   SHA256:    0F:99:39:3D:53:18:AE:D8:48:B7:28:7E:5A:AC:FE:79:7C:C5:C5:71:FF:DF:F8:8C:B0:B8:D6:0B:30:4D:97:8F
  1
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;O&#39;, &#39;DigiCert Inc&#39;), (&#39;OU&#39;, &#39;www.digicert.com&#39;), (&#39;CN&#39;, &#39;DigiCert High Assurance CA-3&#39;)]
+  CertData:  [('C', 'US'), ('O', 'DigiCert Inc'), ('OU', 'www.digicert.com'), ('CN', 'DigiCert High Assurance CA-3')]
   SHA1:      42:85:78:55:FB:0E:A4:3F:54:C9:91:1E:30:E7:79:1D:8C:E8:27:05
   SHA256:    21:EB:37:AB:4C:F6:EF:89:65:EC:17:66:40:9C:A7:6B:8B:2E:03:F2:D1:A3:88:DF:73:42:08:E8:6D:EE:E6:79
 31.13.77.36
  0
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;ST&#39;, &#39;CA&#39;), (&#39;L&#39;, &#39;Menlo Park&#39;), (&#39;O&#39;, &#39;Facebook, Inc.&#39;), (&#39;CN&#39;, &#39;*.facebook.com&#39;)]
+  CertData:  [('C', 'US'), ('ST', 'CA'), ('L', 'Menlo Park'), ('O', 'Facebook, Inc.'), ('CN', '*.facebook.com')]
   SHA1:      86:7C:B2:93:94:87:87:8A:6E:4D:B2:52:36:AC:92:AA:76:F0:9D:E3
   SHA256:    0F:99:39:3D:53:18:AE:D8:48:B7:28:7E:5A:AC:FE:79:7C:C5:C5:71:FF:DF:F8:8C:B0:B8:D6:0B:30:4D:97:8F
  1
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;O&#39;, &#39;DigiCert Inc&#39;), (&#39;OU&#39;, &#39;www.digicert.com&#39;), (&#39;CN&#39;, &#39;DigiCert High Assurance CA-3&#39;)]
+  CertData:  [('C', 'US'), ('O', 'DigiCert Inc'), ('OU', 'www.digicert.com'), ('CN', 'DigiCert High Assurance CA-3')]
   SHA1:      42:85:78:55:FB:0E:A4:3F:54:C9:91:1E:30:E7:79:1D:8C:E8:27:05
   SHA256:    21:EB:37:AB:4C:F6:EF:89:65:EC:17:66:40:9C:A7:6B:8B:2E:03:F2:D1:A3:88:DF:73:42:08:E8:6D:EE:E6:79
 173.252.90.132
  0
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;ST&#39;, &#39;CA&#39;), (&#39;L&#39;, &#39;Menlo Park&#39;), (&#39;O&#39;, &#39;Facebook, Inc.&#39;), (&#39;CN&#39;, &#39;*.facebook.com&#39;)]
+  CertData:  [('C', 'US'), ('ST', 'CA'), ('L', 'Menlo Park'), ('O', 'Facebook, Inc.'), ('CN', '*.facebook.com')]
   SHA1:      86:7C:B2:93:94:87:87:8A:6E:4D:B2:52:36:AC:92:AA:76:F0:9D:E3
   SHA256:    0F:99:39:3D:53:18:AE:D8:48:B7:28:7E:5A:AC:FE:79:7C:C5:C5:71:FF:DF:F8:8C:B0:B8:D6:0B:30:4D:97:8F
  1
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;O&#39;, &#39;DigiCert Inc&#39;), (&#39;OU&#39;, &#39;www.digicert.com&#39;), (&#39;CN&#39;, &#39;DigiCert High Assurance CA-3&#39;)]
+  CertData:  [('C', 'US'), ('O', 'DigiCert Inc'), ('OU', 'www.digicert.com'), ('CN', 'DigiCert High Assurance CA-3')]
   SHA1:      42:85:78:55:FB:0E:A4:3F:54:C9:91:1E:30:E7:79:1D:8C:E8:27:05
   SHA256:    21:EB:37:AB:4C:F6:EF:89:65:EC:17:66:40:9C:A7:6B:8B:2E:03:F2:D1:A3:88:DF:73:42:08:E8:6D:EE:E6:79
 173.252.74.68
  0
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;ST&#39;, &#39;CA&#39;), (&#39;L&#39;, &#39;Menlo Park&#39;), (&#39;O&#39;, &#39;Facebook, Inc.&#39;), (&#39;CN&#39;, &#39;*.facebook.com&#39;)]
+  CertData:  [('C', 'US'), ('ST', 'CA'), ('L', 'Menlo Park'), ('O', 'Facebook, Inc.'), ('CN', '*.facebook.com')]
   SHA1:      86:7C:B2:93:94:87:87:8A:6E:4D:B2:52:36:AC:92:AA:76:F0:9D:E3
   SHA256:    0F:99:39:3D:53:18:AE:D8:48:B7:28:7E:5A:AC:FE:79:7C:C5:C5:71:FF:DF:F8:8C:B0:B8:D6:0B:30:4D:97:8F
  1
-  CertData:  [(&#39;C&#39;, &#39;US&#39;), (&#39;O&#39;, &#39;DigiCert Inc&#39;), (&#39;OU&#39;, &#39;www.digicert.com&#39;), (&#39;CN&#39;, &#39;DigiCert High Assurance CA-3&#39;)]
+  CertData:  [('C', 'US'), ('O', 'DigiCert Inc'), ('OU', 'www.digicert.com'), ('CN', 'DigiCert High Assurance CA-3')]
   SHA1:      42:85:78:55:FB:0E:A4:3F:54:C9:91:1E:30:E7:79:1D:8C:E8:27:05
   SHA256:    21:EB:37:AB:4C:F6:EF:89:65:EC:17:66:40:9C:A7:6B:8B:2E:03:F2:D1:A3:88:DF:73:42:08:E8:6D:EE:E6:79
-&lt;snip&gt;
-</code></pre>
+<snip>
+```
