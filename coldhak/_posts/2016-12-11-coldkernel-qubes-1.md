@@ -4,7 +4,7 @@ title:  "Coldkernel on Qubes pt.1 "
 date:   2016-12-10 22:02:17 -0600
 categories: blog
 ---
-We are currently working on supporting both Debian and Fedora TemplateVMs, however the below instructions assume a Debian TemplateVM. 
+We are currently working on supporting both Debian and Fedora TemplateVMs, however the below instructions assume a Debian 8 TemplateVM. 
 
 It is suggested that you create a dedicated Debian TemplateVM for experimenting with coldkernel. This support is very experimental, and may result in broken Templates. 
 
