@@ -10,6 +10,7 @@ It is suggested that you create a dedicated Debian TemplateVM for experimenting 
 
 ## Configuring Debian TemplateVM
 First, change your max storage size to be 10GB (you can likely get away with anything over 4GB, however running out of disk space at the end of a build can be frustrating).
+
 ![Qubes VM Manager]({{ site.url }}/assets/img/blog/coldkernel_pt1/size.png)
 ### Fix sources.list
 Open ```/etc/apt/sources.list``` and uncomment the lines starting with ```deb-src```. It should look something like this:
