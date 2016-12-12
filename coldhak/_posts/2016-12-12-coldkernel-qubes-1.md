@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coldkernel on Qubes pt.1 "
-date:   2016-12-10 22:02:17 -0600
+date:   2016-12-12 1:00:00 -0600
 categories: blog
 ---
 We are currently working on supporting both Debian and Fedora TemplateVMs, however the below instructions assume a Debian 8 TemplateVM. 
