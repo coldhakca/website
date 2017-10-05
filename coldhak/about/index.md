@@ -73,16 +73,12 @@ Colin is an anonymity and privacy advocate. He is one of the founding directors 
 ## [Robert Keizer ](https://twitter.com/robertkeizer_)
 
 * Legal Name: Robert Keizer 
-* Occupation: Startup CTO, System, Dev, Director for a few non profits
+* Occupation: Founder; CTO; Dev; Systems; etc, etc.
 
-Rob Keizer is a developer, music lover, startup junkie, and privacy zealot. Believer in the "starfish principle" he works towards doing what he can, out of a sense of obligation. "Technology is a tool; Let's use it well".
+Rob Keizer is a entrepreneur specializing in technology startups. He is a founding director of Coldhak. He is likely hacking away at some crazy proof of concept.
 
 #### Contact:
 
 {:.ch-linkbox}
 * PGP
 * [E9CA 82F5 5B46 BFC6 0151 5269 06B6 8F05 8CA7 6E75](https://coldhak.ca/coldhak/keys/robert.asc)
-
-{:.ch-linkbox}
-* Ricochet
-* [ricochet:k4jxuu4mfncrc5wg](https://ricochet.im/)
