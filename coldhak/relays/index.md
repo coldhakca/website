@@ -6,14 +6,6 @@ permalink: /relays/
 ## Exits
 
 {:.ch-linkbox}
-* starfish
-* [317172AB30696897E1F7FA7AA2FC97B47ABF384F](https://atlas.torproject.org/#details/317172AB30696897E1F7FA7AA2FC97B47ABF384F)
-
-{:.ch-linkbox}
-* torlesnet2
-* [7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3](https://atlas.torproject.org/#details/7D5CCD1D8D798779979DF7E0A3A2BFA55D2C24B3)
-
-{:.ch-linkbox}
 * snowfall
 * [823AA81E277F366505545522CEDC2F529CE4DC3F](https://atlas.torproject.org/#details/823AA81E277F366505545522CEDC2F529CE4DC3F)
           
