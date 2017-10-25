@@ -37,10 +37,6 @@ One of the founding directors of Coldhak, Theo is an Internet routing guru, and 
 * PGP
 * [8BB1 79F2 7ABB 1AFC F711 9E2A 2A0E 8675 EF4D 4F80](https://coldhak.ca/coldhak/keys/theo.asc)
 
-{:.ch-linkbox}
-* Ricochet
-* [ricochet:jhbuw5ohdozyzihb](https://ricochet.im/)
-
 ---
 
 ## [Phoul](https://twitter.com/phoul)
